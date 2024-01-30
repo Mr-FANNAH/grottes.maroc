@@ -1,0 +1,228 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header{
+    background-image: url(images/bac.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header h1{
+    color: #008f40;
+}
+.navbare {
+    background-color: #7e0000;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    height: 100px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.header_main{
+    display: flex;
+    margin: 20px 40px 0px 40px;
+    align-items: center;
+}
+header .header_main .test_header{
+    text-align: center;
+    max-width: 60%;
+}
+header .header_main .test_header h1{
+    color: #ffff;
+    font-size: 34px;
+    color: #00a249;
+}
+
+header .header_main .test_header p{
+    color: azure;
+    font-size: 18px;
+}
+
+header .header_main .bac img{
+    width: 600px;
+}
+/* ----------------------------------------end header--------------- */
+/* ----------------------------------------start main--------------- */
+
+/* ------------grotte1----------- */
+main{
+    max-width: 1920px;
+    width: 100%;
+}
+h1{
+    font-size: 24px;
+}
+.margin{
+    margin: 20px 40px 20px 40px;
+    background-color: rgb(255, 222, 178);
+    border: 5px solid rgb(0, 0, 0);
+}
+main .groutte1{
+    height: 100vh;
+    width: 100%;
+
+}
+main .groutte1 .image_maps{
+    display: flex;
+}
+main .groutte1 .image_maps .map-container img{
+    width: 700px;
+    height: 400px;
+    margin: 20px 10px 0px 20px 
+}
+main .groutte1 .image_maps .image-container img{
+    width: 620px;
+    height: 400px;
+    margin: 20px 10px 0px 20px 
+}
+main .groutte1 .text-container{
+    padding:0px 10px 0px 10px ;
+}
+
+
+/* -------------grottes2---------------- */
+
+main .groutte2{
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+main .groutte2 .image_maps{
+    display: flex;
+}
+main .groutte2 .image_maps .map-container img{
+    width: 700px;
+    height: 400px;
+    margin: 20px 10px 0px 20px 
+}
+main .groutte2 .image_maps .image-container img{
+    width: 620px;
+    height: 400px;
+    margin: 20px 10px 0px 20px 
+}
+main .groutte2 .text-container{
+    padding:0px 10px 0px 10px ;
+}
+
+
+/* -------------grottes3---------------- */
+
+main .groutte3{
+    height: 100vh;
+    width: 100%;
+
+}
+main .groutte3 .image_maps{
+    display: flex;
+}
+main .groutte3 .image_maps .map-container img{
+    width: 700px;
+    height: 400px;
+    margin: 20px 10px 0px 20px 
+}
+main .groutte3 .image_maps .image-container img{
+    width: 620px;
+    height: 400px;
+    margin: 20px 10px 0px 20px 
+}
+main .groutte3 .text-container{
+    padding:0px 10px 0px 10px ;
+}
+
+
+/* -------------grottes4---------------- */
+
+main .groutte4{
+    height: 100vh;
+    width: 100%;
+
+}
+main .groutte4 .image_maps{
+    display: flex;
+}
+main .groutte4 .image_maps .map-container img{
+    width: 700px;
+    height: 400px;
+    margin: 20px 10px 0px 20px 
+}
+#g5img{
+    width: 620px;
+    height: 400px;
+    margin: 20px 10px 0px 20px 
+}
+main .groutte4 .text-container{
+    padding:0px 10px 0px 10px ;
+}
+
+/* -------------grottes5---------------- */
+
+main .groutte5{
+    height: 100vh;
+    width: 100%;
+
+}
+main .groutte5 .image_maps{
+    display: flex;
+}
+main .groutte5 .image_maps .map-container img{
+    width: 700px;
+    height: 400px;
+    margin: 20px 10px 0px 20px 
+}
+#g5img{
+    width: 620px;
+    height: 400px;
+    margin: 20px 10px 0px 20px 
+}
+main .groutte5 .text-container{
+    padding:0px 10px 0px 10px ;
+}
+
+/* -------------grottes6---------------- */
+
+main .groutte6{
+    height: 100vh;
+    width: 100%;
+
+}
+main .groutte6 .image_maps{
+    display: flex;
+}
+main .groutte6 .image_maps .map-container img{
+    width: 700px;
+    height: 400px;
+    margin: 20px 10px 0px 20px 
+}
+#g6img{
+    width: 620px;
+    height: 400px;
+    margin: 20px 10px 0px 20px 
+}
+main .groutte5 .text-container{
+    padding:0px 10px 0px 10px ;
+}
+/* -----------------------------------------start footer */
+
+
