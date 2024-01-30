@@ -106,6 +106,7 @@ function init(){
     { coordinates: [34.8384207, -2.3587021], image: 'images/g6img.JPG', description: 'La Grotte du Chameau',link: 'https://www.google.com/maps/place/La+Grotte+du+Chameau/@34.8384207,-2.3587021,17z/data=!3m1!4b1!4m6!3m5!1s0xd78189de7c0f931:0x654683360baa922a!8m2!3d34.8384207!4d-2.3561272!16s%2Fg%2F11cs6bj8bf?entry=ttu'},
     { coordinates: [34.8343206, -2.4961348], image: 'images/g10img.png', description: 'Grotte du Kaf',link: 'https://www.google.com/maps/place/Grotte+du+Kaf/@34.779703,-2.1569815,17z/data=!3m1!4b1!4m6!3m5!1s0xd7814c87c172a05:0xec4516829356a9fb!8m2!3d34.779703!4d-2.1544066!16s%2Fg%2F119wgr_z_?entry=ttu'},
     { coordinates: [35.7601472710825, -5.939007455287253], image: 'images/g1.jpg', description: 'Grottes dHercule, Tanger',link: "https://www.google.com/maps/place/Grottes+d'Hercule/@35.7599335,-5.9392319,15z/data=!4m2!3m1!1s0x0:0xa9ac855c8cfd195a?sa=X&ved=2ahUKEwjC-crHtoWEAxXIUaQEHa7DCPsQ_BJ6BAgPEAA"  },
+       { coordinates: [30.6803624, -9.3474415], image: 'slider/image/timdouine.jpg', description: 'Grotte de Win-Timdouine Agadir',link: "https://www.google.com/maps/place/Grotte+Win+Timdouine/@30.6803624,-9.3448666,15z/data=!4m2!3m1!1s0x0:0x547820649b676ce9?sa=X&ved=2ahUKEwiR6_D-6IWEAxUNhv0HHS1ZC3QQ_BJ6BAgOEAA"  }
     
   ];
 
