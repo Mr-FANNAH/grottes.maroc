@@ -157,7 +157,7 @@ function init(){
   maroc.setStyle({
             color: '#0652DD',
             opacity: 0.5,
-            fillColor: '#EA2027',
+            fillColor: '#27ae60',
             fillOpacity:0.5});
 
   
@@ -192,7 +192,6 @@ function init(){
     var marker;
 
     function getPosition(position){
-        // console.log(position)
         var lat = position.coords.latitude
         var long = position.coords.longitude
         var accuracy = position.coords.accuracy
@@ -201,10 +200,7 @@ function init(){
             map.removeLayer(marker)
         }
 
-        // if(circle) {
-        //     map.removeLayer(circle)
-        // }
-        // Créer une icône personnalisée
+        
         var customIcon = L.icon({
             iconUrl: 'moi.png', // Remplacez par le chemin de votre icône
             iconSize: [40, 40], // Taille de l'icône
