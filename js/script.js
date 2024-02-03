@@ -212,7 +212,7 @@ function init(){
             popupAnchor: [0, -40] // Point à partir duquel la popup s'ouvre
         });
         marker = L.marker([lat, long],{icon:customIcon});
-        //circle = L.circle([lat, long], {radius: accuracy})
+        circle = L.circle([lat, long], {radius: accuracy})
 
         var featureGroup = L.featureGroup([marker, circle]).addTo(mymap)
 
