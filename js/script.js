@@ -41,8 +41,8 @@ window.onscroll = () => {
 //moving text home page
 var typed = new Typed(".multiple-text", {
     strings: [
-        "la gestion des Grottes au Maroc",
-        "The managing Caves in Morocco",
+        "Gestion des Grottes au Maroc",
+        "managing Caves in Morocco",
         "ⵜⴰⵙⵔⴰⵡⵜ ⵜⵉⴳⵡⴰⵢⵜ ⵏ ⵎⵔⵔⵓⴽ"
       ],
     typeSpeed: 40,
