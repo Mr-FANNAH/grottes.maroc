@@ -155,11 +155,10 @@ function init(){
 }
 
   maroc.setStyle({
-            color: '#f5f6fa',
+            color: '#0652DD',
             opacity: 0.5,
-            fillColor: '#44bd32',
-            fillOpacity:0.5
-        });
+            fillColor: '#EA2027',
+            fillOpacity:0.5});
 
   
  
@@ -180,8 +179,47 @@ function init(){
                                 </table>`);
       layer.setStyle(feature.properties.style);
         }
+  //osm.addTo(mymap);
 
-        
+    if(!navigator.geolocation) {
+        console.log("Your browser doesn't support geolocation feature!")
+    } else {
+        setInterval(() => {
+            navigator.geolocation.getCurrentPosition(getPosition)
+        }, 3000);
+    }
 
-  
+    var marker;
+
+    function getPosition(position){
+        // console.log(position)
+        var lat = position.coords.latitude
+        var long = position.coords.longitude
+        var accuracy = position.coords.accuracy
+
+        if(marker) {
+            map.removeLayer(marker)
+        }
+
+        // if(circle) {
+        //     map.removeLayer(circle)
+        // }
+        // Créer une icône personnalisée
+        var customIcon = L.icon({
+            iconUrl: 'moi.png', // Remplacez par le chemin de votre icône
+            iconSize: [40, 40], // Taille de l'icône
+            iconAnchor: [20, 20], // Point de l'icône qui correspondra à la position du marqueur
+            popupAnchor: [0, -40] // Point à partir duquel la popup s'ouvre
+        });
+        marker = L.marker([lat, long],{icon:customIcon});
+        circle = L.circle([lat, long], {radius: accuracy})
+
+        var featureGroup = L.featureGroup([marker, circle]).addTo(mymap)
+
+       //map.fitBounds(featureGroup.getBounds())
+
+        console.log("Your coordinate is: Lat: "+ lat +" Long: "+ long+ " Accuracy: "+ accuracy)
+    }
+         
 }
+
